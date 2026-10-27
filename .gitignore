@@ -40,3 +40,7 @@ exercises/
 final-project/
 session-2/
 _to_delete/
+
+#your code below
+name=input("enter your name")
+print(name)
