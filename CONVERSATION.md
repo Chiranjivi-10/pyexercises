@@ -42,3 +42,39 @@ print(f"Combined: {name} has {value}") # f-string for formatted output
 ```
 
 What does the comma inside `print()` do to the output?
+
+---
+## 2026-10-28 14:20, in .
+
+**Me:** what is python for loop
+
+**Tutor:**
+
+A for loop is a way to repeat a block of code for each item in a sequence.
+
+Pattern on toy data:
+```python
+# Loop over a list of numbers
+numbers = [10, 20, 30]
+for num in numbers:
+    print(num * 2)
+```
+
+What is the loop variable in the example above?
+
+---
+## 2026-10-28 14:22, in .
+
+**Me:** what is an input function
+
+**Tutor:**
+
+The input() function pauses the program and waits for the user to type something, then returns it as a string.
+
+```python
+# Ask the user for their name
+name = input("Enter your name: ")  # TODO: replace the prompt with your own text
+print("Hello, " + name)
+```
+
+What does input() always return, no matter what the user types?
