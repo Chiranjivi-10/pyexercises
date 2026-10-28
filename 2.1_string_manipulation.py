@@ -24,10 +24,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In:the program takes one sentence entered by the user.
+# 2. Process:the program applies four different string transformationsto the sentence.
+# 3. Out:the program displays different version of the same sentence.
+# 4. My four transformations, and when each is useful:1. upper() - Useful for displaying text in capital letters.
+2. lower() - Useful for converting text to lowercase.
+3. title() - Useful for capitalizing the first letter of each word.
+4. strip() - Useful for removing spaces at the beginning and end.
+
 
 
 # Your code below
