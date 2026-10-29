@@ -28,10 +28,7 @@ DELIVERABLE
 # 2. Process:the program checks every no from 1 to 100 whether it is even or odd
 # 3. Out:he program displays every number and identifies it as odd or even.
 # 4. What happens on 0, on a negative number, on a very large number:
-if the user enters 0, display a message.
-If the user enters a negative number, display a message.
-If the user enters a number greater than 100, display a message
-to avoid printing too many line
+ 
 
 
 # Your code below
