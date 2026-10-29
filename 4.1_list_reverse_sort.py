@@ -25,10 +25,21 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four orders, and which ones modify the original:
+# 1. In:the list of 8 monthly marketing budget
+# 2. Process:the program reorders the list in four different ways, without
+changing the original, then displays the original again at the end to prove
+it has not moved.
+# 3. Out:the list in four orders (smallest to largest, largest to smallest,
+reversed original order, and sorted using .sort() on a copy), followed by
+the untouched original list.
+# 4. My four orders, and which ones modify the original: a) sorted(budgets): smallest to largest. Returns a NEW list, original is safe.
+b) sorted(budgets, reverse=True): largest to smallest. Returns a NEW list,
+original is safe.
+c) budgets[::-1]: original order backwards. Slicing returns a NEW list,
+original is safe.
+d) copy.sort(): smallest to largest, done on a copy made with budgets.copy()..sort() modifies the list IN PLACE and returns None, so it would damage the
+original if I used it on budgets directly. I used it on a copy so the
+original is not modified.
 
 
 # Your code below
